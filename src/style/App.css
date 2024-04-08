@@ -1,0 +1,59 @@
+@media screen and (min-width: 1200px){.container {
+    max-width: 750px !important;
+}}
+
+/* body  */
+body{
+  background-color: rgba(245, 245, 245, 0.548);
+}
+  /* CARD BODY  */
+.car{
+  margin-top: 14px;
+  max-height: 304px;
+  width: 194px;
+  border-radius: 6%;
+  background-color: white;
+
+  > .cardHeader{
+    margin-top: 1rem;
+      text-align: center;
+      font-family: serif;
+      color: darkgrey;
+      font-size: small;
+  }
+  > .cardSubHeader{
+      text-align: center;
+  }
+  > .cardBody{
+      font-size: smaller;
+  }
+}
+
+.demo{
+  gap: 10px;
+  min-height: 21rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #30ABFD;
+}.header{
+  text-align: center;
+}.subHeader{
+  text-align: center;
+}
+
+  /* BUTTON  */
+.dds{
+  margin-top: 5px;
+  margin-left: 10px;
+  text-align: center;
+  width: 88%;
+  height: 28px;
+  background: #007AFF;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ }
+       
